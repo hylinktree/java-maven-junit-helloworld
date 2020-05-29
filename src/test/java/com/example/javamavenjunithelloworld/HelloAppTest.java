@@ -43,7 +43,7 @@ public class HelloAppTest {
         whenNew(Hello.class).withNoArguments().thenReturn(hi);
 
         // We know this will raise the expected exception, because we mocked Hello.
-        String[] args = {"5"};
+        String[] args = {"9"};
         HelloApp.main(args);
 
         // Did the program exit with the expected error code?
